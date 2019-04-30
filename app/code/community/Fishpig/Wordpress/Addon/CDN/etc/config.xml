@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Fishpig_Wordpress_Addon_CDN>
+			<version>1.0.0.0</version>
+		</Fishpig_Wordpress_Addon_CDN>
+	</modules>
+	<global>
+		<helpers>
+			<wp_addon_cdn>
+				<class>Fishpig_Wordpress_Addon_CDN_Helper</class>			
+			</wp_addon_cdn>
+			<wordpress>
+  			<rewrite>
+    			<data>Fishpig_Wordpress_Addon_CDN_Helper_Wordpress_Data</data>
+  			</rewrite>
+			</wordpress>
+		</helpers>
+	</global>
+</config>
