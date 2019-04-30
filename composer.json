@@ -1,5 +1,5 @@
 {
-  "name": "fishpig/magento1-wordpress-integration-cdn",
+  "name": "bentideswell/magento1-wordpress-integration-cdn",
   "type": "magento-module",
   "homepage": "https://github.com/bentideswell/magento1-wordpress-integration-cdn",
   "description": "Use a CDN URL for your featured images when using Magento WordPress Integration",
